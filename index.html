@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <title>Neuros</title>
+    <meta
+      name="description"
+      content="Neuros - Revolutionizing Business Decisions with AI-Powered Analytics. Harness the power of artificial intelligence to transform your business data into actionable insights, propelling you to new heights of success." />
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link
       rel="icon"
@@ -75,7 +78,9 @@
             class="font-DM font-bold text-light-0 bg-primary_light-600 hover:bg-primary_light-700 text-sm active:bg-primary_light-800 py-3 px-5 rounded-xl max-w-max dark:bg-primary_dark-600 dark:hover:bg-primary_dark-700 dark:active:bg-primary_dark-800 transition hidden md:flex flex-initial items-center">
             Start your free trial
           </button>
-          <button class="m-3 lg:hidden relative js-nav__burger">
+          <button
+            aria-label="open or close mobile menu"
+            class="m-3 lg:hidden relative js-nav__burger">
             <span
               class="block bg-[url('/icons/close.svg')] dark:bg-[url('/icons/closedark.svg')] bg-no-repeat bg-center absolute top-0 w-8 h-8 bg-light-0 dark:bg-dark-0 opacity-0 transition-all js-nav__close"></span>
             <span
@@ -148,8 +153,8 @@
         <button
           class="font-DM font-bold border border-light-400 text-light-800 hover:border-light-700 active:border-light-900 py-3 px-5 rounded-xl w-full flex items-center justify-center gap-2 md:max-w-max dark:border-dark-400 dark:text-dark-800 dark:hover:border-dark-700 dark:active:border-dark-900 transition">
           <!-- <img src="/icons/Licon.svg" alt="decor" class="w-5 h-5" /> -->
-          <div
-            class="w-5 h-5 bg-[url('/icons/Licon.svg')] bg-no-repeat bg-contain dark:bg-[url('/icons/Licondark.svg')]"></div>
+          <span
+            class="block w-5 h-5 bg-[url('/icons/Licon.svg')] bg-no-repeat bg-contain dark:bg-[url('/icons/Licondark.svg')]"></span>
           Watch video
         </button>
       </div>
@@ -158,6 +163,7 @@
         <div
           class="bg-light-0 w-24 h-24 rounded-full flex items-center justify-center border-[0.75rem] border-primary_light-600/50 md:max-w-max md:w-max md:flex md:gap-3 dark:bg-dark-0">
           <button
+            aria-label="play video"
             class="md:ml-3 w-14 h-14 bg-[url('/icons/Play.svg')] bg-no-repeat bg-contain dark:bg-[url('/icons/Play.svg')]">
             <!-- <img src="/icons/Play.svg" alt="play" /> -->
           </button>
